@@ -2,7 +2,7 @@
 
 Nix flake packaging [sparkrun](https://github.com/spark-arena/sparkrun) — Launch and manage Docker-based inference workloads on NVIDIA DGX Spark systems.
 
-Pinned to upstream `v0.2.32`.
+Pinned to upstream `v0.2.38`.
 
 ## Quick start
 

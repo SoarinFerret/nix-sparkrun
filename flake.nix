@@ -8,7 +8,7 @@
 
   outputs = { self, nixpkgs, flake-utils }:
     let
-      sparkrunVersion = "0.2.32";
+      sparkrunVersion = "0.2.38";
 
       mkPythonOverrides = py-final: py-prev: {
         botwinick-utils = py-final.buildPythonPackage rec {
@@ -82,7 +82,7 @@
         src = pkgs.python3.pkgs.fetchPypi {
           pname = "sparkrun";
           version = sparkrunVersion;
-          hash = "sha256-eJbQeGqHFcDhXGDarTCMTOGYPV3208L5LC72tIljX7M=";
+          hash = "sha256-xPX8yx7+zompHq8i9qAEzRM9umWPJVFpHkErKka1rG4=";
         };
 
         build-system = with pkgs.python3.pkgs; [ setuptools setuptools-scm ];
